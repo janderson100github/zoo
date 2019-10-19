@@ -12,13 +12,13 @@ public class Chicken extends Bird {
 
     @Override
     public String toString() {
-        return ("Chicken\t{" +
-                "name='" + name + '\'' +
-                ", favoriteFood='" + favoriteFood + '\'' +
-                ", isBroiler=" + isBroiler +
-                ", wingspan=" + wingspan +
-                ", friends=" + friendsToString() +
-                '}').replace(", ", "\t");
+        return "Chicken\t{" +
+               "name='" + name + '\'' +
+               ", favoriteFood='" + favoriteFood + '\'' +
+               ", isBroiler=" + isBroiler +
+               ", wingspan=" + wingspan +
+               ", friends=" + friendsToString() +
+               '}';
     }
 
     public Boolean getBroiler() {

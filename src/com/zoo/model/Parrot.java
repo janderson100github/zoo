@@ -12,13 +12,13 @@ public class Parrot extends Bird {
 
     @Override
     public String toString() {
-        return ("Parrot\t{" +
+        return "Parrot\t{" +
                "name='" + name + '\'' +
                ", favoriteFood='" + favoriteFood + '\'' +
                ", canSpeak=" + canSpeak +
                ", wingspan=" + wingspan +
                ", friends=" + friendsToString() +
-               '}').replace(", ", "\t");
+               '}';
     }
 
     public Boolean getCanSpeak() {
